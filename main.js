@@ -103,7 +103,7 @@ window.addEventListener("load", () => {
             })
             const initSortableList = (e) => {
                 e.preventDefault();
-                const draggingItem = sortableList.querySelectorAll(".dragging");
+                const draggingItem = sortableList.querySelector(".dragging");
 
                 const siblings = [...sortableList.querySelectorAll(".task_list:not(.dragging)")];
 
