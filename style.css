@@ -231,3 +231,7 @@ button.delete {
 .dragging:where(div.content, div.button_holder){
   opacity: 0;
 }
+
+section div.sortableList{
+  height: 400px;
+}
